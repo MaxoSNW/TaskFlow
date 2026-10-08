@@ -243,6 +243,36 @@ main {
     font-weight: bold;
 }
 
+
+.marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo {
+    display: block;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.marca h1 {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .marca {
+        gap: 8px;
+    }
+}
+
 @media (max-width: 700px) {
     .encabezado-tareas {
         flex-direction: column;
