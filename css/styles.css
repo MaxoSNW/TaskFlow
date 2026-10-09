@@ -288,3 +288,27 @@ main {
         justify-content: flex-end;
     }
 }
+/* Enlaces a los documentos legales */
+.enlaces-legales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.enlaces-legales a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.enlaces-legales a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.enlaces-legales a:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 3px;
+}
